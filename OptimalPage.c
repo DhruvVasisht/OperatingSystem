@@ -25,7 +25,7 @@ int main()
                if(page[i]==fr[j])
                 {
                     flag=1;
-                    printf("          \t%d:\t",page[i]);
+                    printf("        \t%d:\t",page[i]);
                     break;
                 }
             }
