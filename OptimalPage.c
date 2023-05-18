@@ -25,7 +25,7 @@ int main()
                if(page[i]==fr[j])
                 {
                     flag=1;
-                    printf("        \t%d:\t",page[i]);
+                    printf("          \t%d:\t",page[i]);
                     break;
                 }
             }
@@ -112,5 +112,5 @@ int full(int a[],int n)
         if(a[k]==-1)
             return 0;
     }
-    return 1;
+return 1;
 }
